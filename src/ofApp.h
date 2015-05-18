@@ -24,4 +24,10 @@ class ofApp : public ofBaseApp
 		ofTrueTypeFontExt		fontSmall;
     
     ofMesh mesh;
+    ofLight l1;
+    int W = 30;
+    int H = 30;
+
+    int y ;
+    ofColor color;
 };
